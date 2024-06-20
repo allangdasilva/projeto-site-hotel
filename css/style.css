@@ -11,11 +11,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;
     padding: 20px 50px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    
 }
 header > img {
     width: 260px;
@@ -36,4 +34,34 @@ nav ul li:last-child {
 nav ul a {
     text-decoration: none;
     color: #191c03;
+}
+main .section01 {
+    background: #ccc;
+    background-image: url(../img/hero1.jpg);
+    background-size: cover;
+    min-height: calc(100vh - 98.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+main .section01 h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.247);
+}
+main .section01 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.247);
+}
+main .section01 .btn {
+    background: #fff;
+    color: #191c03;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.247);
 }
