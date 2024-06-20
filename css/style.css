@@ -70,6 +70,40 @@ main .section02 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 100px 50px;
 }
-main .section02 h3
+main .section02 h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+main .section02 p {
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+main .section02 hr {
+    background: #191c03;
+    width: 200px;
+    height: 2px;
+    border: none;
+    margin-bottom: 70px;
+}
+main .section02 .grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+}
+main .section02 .grid li {
+    height: 350px;
+    padding: 20px;
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+}
+main .section02 .small {
+    flex-basis: 40%;
+}
+main .section02 .larger {
+    flex-basis: 60%;
+}

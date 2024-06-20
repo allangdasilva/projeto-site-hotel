@@ -13,4 +13,25 @@
         font-size: 1.2rem;
         margin: 2px 2px 15px 2px;
     }
+    main .section02 {
+        padding: 70px 50px;
+    }
+    main .section02 .small {
+        flex-basis: 100%;
+    }
+    main .section02 .larger {
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    main .section02 .grid {
+        width: 350px;
+    }
+    
+    main .section02 .small {
+        flex-basis: 100%;
+    }
+    main .section02 .larger {
+        flex-basis: 100%;
+    }
 }
