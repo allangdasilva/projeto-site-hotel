@@ -200,3 +200,34 @@ main .section04 form button {
     color: #fff;
     background: #c3c63b;
 }
+footer {
+    background: #191c03;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 0px 0px;
+    color: #c3c63b;
+}
+footer .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 15px;
+
+}
+footer .grid li {
+    margin-right: 15px;
+    font-size: 2rem;
+}
+footer .grid li:last-child {
+    margin-right: 0px;
+}
+footer .grid li a {
+    color: #c3c63b;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 5px;
+}

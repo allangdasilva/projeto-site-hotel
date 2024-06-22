@@ -39,6 +39,10 @@
         width: 80%;
         margin-bottom: 15px;
     }
+    footer p {
+        font-size: 0.9rem;
+        margin: 0px 4px 5px 4px;
+    }
 }
 @media screen and (max-width:450px){
     main .section02 .grid {
