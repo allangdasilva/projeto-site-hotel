@@ -35,6 +35,9 @@ nav ul a {
     text-decoration: none;
     color: #191c03;
 }
+nav ul a:hover {
+    color: #c3c63b;
+}
 main .section01 {
     background: #ccc;
     background-image: url(../img/hero1.jpg);
@@ -64,6 +67,13 @@ main .section01 .btn {
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.247);
+}
+main .section01 .btn:hover {
+    background: #c3c63b;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.3s;
+    
 }
 main .section02 {
     display: flex;
@@ -199,6 +209,10 @@ main .section04 form button {
     cursor: pointer;
     color: #fff;
     background: #c3c63b;
+}
+main .section04 form button:hover {
+    background: #fff;
+    color: #c3c63b;
 }
 footer {
     background: #191c03;
